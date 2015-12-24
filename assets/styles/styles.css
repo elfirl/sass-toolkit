@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5; }
+
+h1, h2, legend, h3, h4, h5 {
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+  line-height: 1.2; }
+
+a {
+  color: #26c6da;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline;
+    color: #a5d6a7; }
+
+fieldset {
+  margin: 0 auto;
+  width: 80%;
+  background-color: e0e0e0; }
+
+legend {
+  font-size: 50px; }
+
+input, textarea {
+  width: 100%;
+  border: 1px solid #000;
+  font-size: 2em; }
+  input:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #ef6c00;
+    box-shadow: 0 0 10px #ef6c00; }
+  input.radio, textarea.radio {
+    width: 14px;
+    border: none;
+    box-shadow: none; }
+  input.checkbox, textarea.checkbox {
+    width: 14px;
+    border: none;
+    box-shadow: none; }
+
+select {
+  display: block;
+  font-size: 2em; }
+
+label {
+  display: block; }
+
+.file {
+  font-size: 1em; }
+
+.submit {
+  background-color: #ef6c00; }
+
+/*# sourceMappingURL=styles.css.map */

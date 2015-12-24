@@ -1,0 +1,55 @@
+fieldset {
+	margin: 0 auto;
+	width: 80%;
+	background-color: $grey;
+}
+
+legend {
+	@extend h2;
+	font-size: 50px;
+}
+
+input, textarea {
+	width: 100%;
+	border: 1px solid #000;
+	font-size: 2em;
+
+	&:focus {
+	outline: none;
+    border: 1px solid $orange;
+    box-shadow: 0 0 10px $orange;
+	}
+
+	&.radio {
+		width: 14px;
+		border: none;
+		box-shadow: none;
+	}
+
+	&.checkbox {
+		width: 14px;
+		border: none;
+		box-shadow: none;
+	}
+}
+
+select {
+	display: block;
+	font-size: 2em;
+}
+
+label {
+	display: block;
+}
+
+.file {
+	font-size: 1em;
+}
+
+.submit {
+	background-color: $orange;
+}
+
+
+
+

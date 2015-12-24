@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  line-height: 5.5; }
+
+h1, h2, h3, h4, h5 {
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+  line-height: 1.2; }
+
+a {
+  color: #26c6da;
+  text-decoration: none; }
+
+fieldset {
+  width: 80%;
+  background-color: e0e0e0; }
+
+body {
+  background-color: yellow; }
+
+/*# sourceMappingURL=styles.css.map */
